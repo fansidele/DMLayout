@@ -1,0 +1,3 @@
+[submodule "HJCache"]
+	path = HJCache
+	url = git://github.com/markofjohnson/HJCache.git

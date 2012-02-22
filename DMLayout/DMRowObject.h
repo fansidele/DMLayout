@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DMRowObject : NSObject
+@interface DMRowObject : NSObject{
+    
+    NSNumber *cellIdentifier;
+    
+}
+@property(nonatomic,retain)NSNumber *cellIdentifier;
+
 
 @end

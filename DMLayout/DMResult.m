@@ -9,5 +9,22 @@
 #import "DMResult.h"
 
 @implementation DMResult
+@synthesize titleLabel;
+@synthesize snippetLabel;
+
+-(id)initWithTitle:(NSString *)title snippet:(NSString *)snippetLabel{
+    
+    if(self == [super init]){
+        
+        
+    }
+    return self;
+    
+    
+}
+
+
+
+
 
 @end

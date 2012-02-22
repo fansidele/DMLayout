@@ -8,6 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DMResult : NSObject
+@interface DMResult : NSObject{
+    
+    NSString *titleLabel;
+    NSString *snippetLabel;
+    
+    UIImage *resultImage;
+    
+}
+
+@property(nonatomic,retain)NSString *titleLabel;
+@property(nonatomic,retain)NSString *snippetLabel;
+@property(nonatomic,retain)UIImage *resultImage;
 
 @end

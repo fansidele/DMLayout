@@ -9,5 +9,6 @@
 #import "DMRowObject.h"
 
 @implementation DMRowObject
+@synthesize cellIdentifier;
 
 @end

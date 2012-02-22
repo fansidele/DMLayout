@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79130F5814F47BCF00785BCA /* HJCircularBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F4514F47BCF00785BCA /* HJCircularBuffer.m */; };
+		79130F5914F47BCF00785BCA /* HJManagedImageV.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F4714F47BCF00785BCA /* HJManagedImageV.m */; };
+		79130F5A14F47BCF00785BCA /* HJMOBigFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F4A14F47BCF00785BCA /* HJMOBigFileCache.m */; };
+		79130F5B14F47BCF00785BCA /* HJMOFileCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F4C14F47BCF00785BCA /* HJMOFileCache.m */; };
+		79130F5C14F47BCF00785BCA /* HJMOHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F4E14F47BCF00785BCA /* HJMOHandler.m */; };
+		79130F5D14F47BCF00785BCA /* HJMOPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F5014F47BCF00785BCA /* HJMOPolicy.m */; };
+		79130F5E14F47BCF00785BCA /* HJMOUserBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F5314F47BCF00785BCA /* HJMOUserBase.m */; };
+		79130F5F14F47BCF00785BCA /* HJObjManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F5514F47BCF00785BCA /* HJObjManager.m */; };
+		79130F6014F47BCF00785BCA /* HJWeakMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F5714F47BCF00785BCA /* HJWeakMutableArray.m */; };
+		79130F6314F47F0500785BCA /* DMManagedImageV.m in Sources */ = {isa = PBXBuildFile; fileRef = 79130F6214F47F0500785BCA /* DMManagedImageV.m */; };
 		791C876414F3F351004EBDE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C876314F3F351004EBDE4 /* UIKit.framework */; };
 		791C876614F3F351004EBDE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C876514F3F351004EBDE4 /* Foundation.framework */; };
 		791C876814F3F351004EBDE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791C876714F3F351004EBDE4 /* CoreGraphics.framework */; };
@@ -15,22 +25,62 @@
 		791C877414F3F351004EBDE4 /* DMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C877314F3F351004EBDE4 /* DMAppDelegate.m */; };
 		791C877714F3F351004EBDE4 /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C877614F3F351004EBDE4 /* DMViewController.m */; };
 		791C877A14F3F351004EBDE4 /* DMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791C877814F3F351004EBDE4 /* DMViewController.xib */; };
+		791C878314F3F449004EBDE4 /* DMLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C878114F3F449004EBDE4 /* DMLayoutCell.m */; };
+		791C878814F3F7D9004EBDE4 /* DMLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C878714F3F7D9004EBDE4 /* DMLayoutManager.m */; };
+		791C879014F3FEF4004EBDE4 /* DMLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C878F14F3FEF3004EBDE4 /* DMLayoutView.m */; };
+		791C879714F40494004EBDE4 /* DMRowObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C879614F40494004EBDE4 /* DMRowObject.m */; };
+		791C879A14F404B2004EBDE4 /* DMResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 791C879914F404B2004EBDE4 /* DMResult.m */; };
+		791C87A214F42548004EBDE4 /* DMCellLayout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 791C87A014F42548004EBDE4 /* DMCellLayout.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79130F4414F47BCF00785BCA /* HJCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJCircularBuffer.h; sourceTree = "<group>"; };
+		79130F4514F47BCF00785BCA /* HJCircularBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJCircularBuffer.m; sourceTree = "<group>"; };
+		79130F4614F47BCF00785BCA /* HJManagedImageV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJManagedImageV.h; sourceTree = "<group>"; };
+		79130F4714F47BCF00785BCA /* HJManagedImageV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJManagedImageV.m; sourceTree = "<group>"; };
+		79130F4814F47BCF00785BCA /* HJManagedImageVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJManagedImageVDelegate.h; sourceTree = "<group>"; };
+		79130F4914F47BCF00785BCA /* HJMOBigFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOBigFileCache.h; sourceTree = "<group>"; };
+		79130F4A14F47BCF00785BCA /* HJMOBigFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOBigFileCache.m; sourceTree = "<group>"; };
+		79130F4B14F47BCF00785BCA /* HJMOFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOFileCache.h; sourceTree = "<group>"; };
+		79130F4C14F47BCF00785BCA /* HJMOFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOFileCache.m; sourceTree = "<group>"; };
+		79130F4D14F47BCF00785BCA /* HJMOHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOHandler.h; sourceTree = "<group>"; };
+		79130F4E14F47BCF00785BCA /* HJMOHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOHandler.m; sourceTree = "<group>"; };
+		79130F4F14F47BCF00785BCA /* HJMOPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOPolicy.h; sourceTree = "<group>"; };
+		79130F5014F47BCF00785BCA /* HJMOPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOPolicy.m; sourceTree = "<group>"; };
+		79130F5114F47BCF00785BCA /* HJMOUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOUser.h; sourceTree = "<group>"; };
+		79130F5214F47BCF00785BCA /* HJMOUserBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMOUserBase.h; sourceTree = "<group>"; };
+		79130F5314F47BCF00785BCA /* HJMOUserBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMOUserBase.m; sourceTree = "<group>"; };
+		79130F5414F47BCF00785BCA /* HJObjManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJObjManager.h; sourceTree = "<group>"; };
+		79130F5514F47BCF00785BCA /* HJObjManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJObjManager.m; sourceTree = "<group>"; };
+		79130F5614F47BCF00785BCA /* HJWeakMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJWeakMutableArray.h; sourceTree = "<group>"; };
+		79130F5714F47BCF00785BCA /* HJWeakMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJWeakMutableArray.m; sourceTree = "<group>"; };
+		79130F6114F47F0500785BCA /* DMManagedImageV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMManagedImageV.h; sourceTree = "<group>"; };
+		79130F6214F47F0500785BCA /* DMManagedImageV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMManagedImageV.m; sourceTree = "<group>"; };
 		791C875F14F3F351004EBDE4 /* DMLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		791C876314F3F351004EBDE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		791C876514F3F351004EBDE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		791C876714F3F351004EBDE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		791C876B14F3F351004EBDE4 /* DMLayout-Info.plist */ = {isa = PBXFileReference; path = "DMLayout-Info.plist"; sourceTree = "<group>"; };
+		791C876B14F3F351004EBDE4 /* DMLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DMLayout-Info.plist"; sourceTree = "<group>"; };
 		791C876D14F3F351004EBDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		791C876F14F3F351004EBDE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		791C877114F3F351004EBDE4 /* DMLayout-Prefix.pch */ = {isa = PBXFileReference; path = "DMLayout-Prefix.pch"; sourceTree = "<group>"; };
-		791C877214F3F351004EBDE4 /* DMAppDelegate.h */ = {isa = PBXFileReference; path = DMAppDelegate.h; sourceTree = "<group>"; };
+		791C877114F3F351004EBDE4 /* DMLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DMLayout-Prefix.pch"; sourceTree = "<group>"; };
+		791C877214F3F351004EBDE4 /* DMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAppDelegate.h; sourceTree = "<group>"; };
 		791C877314F3F351004EBDE4 /* DMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAppDelegate.m; sourceTree = "<group>"; };
-		791C877514F3F351004EBDE4 /* DMViewController.h */ = {isa = PBXFileReference; path = DMViewController.h; sourceTree = "<group>"; };
+		791C877514F3F351004EBDE4 /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
 		791C877614F3F351004EBDE4 /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
 		791C877914F3F351004EBDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DMViewController.xib; sourceTree = "<group>"; };
+		791C878014F3F449004EBDE4 /* DMLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLayoutCell.h; sourceTree = "<group>"; };
+		791C878114F3F449004EBDE4 /* DMLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLayoutCell.m; sourceTree = "<group>"; };
+		791C878514F3F4BB004EBDE4 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		791C878614F3F7D8004EBDE4 /* DMLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLayoutManager.h; sourceTree = "<group>"; };
+		791C878714F3F7D9004EBDE4 /* DMLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLayoutManager.m; sourceTree = "<group>"; };
+		791C878E14F3FEF3004EBDE4 /* DMLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMLayoutView.h; sourceTree = "<group>"; };
+		791C878F14F3FEF3004EBDE4 /* DMLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMLayoutView.m; sourceTree = "<group>"; };
+		791C879514F40494004EBDE4 /* DMRowObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMRowObject.h; sourceTree = "<group>"; };
+		791C879614F40494004EBDE4 /* DMRowObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMRowObject.m; sourceTree = "<group>"; };
+		791C879814F404B2004EBDE4 /* DMResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMResult.h; sourceTree = "<group>"; };
+		791C879914F404B2004EBDE4 /* DMResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMResult.m; sourceTree = "<group>"; };
+		791C87A114F42548004EBDE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DMCellLayout.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +97,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79130ED914F4742B00785BCA /* External code */ = {
+			isa = PBXGroup;
+			children = (
+				79130F4314F47BCF00785BCA /* HJCacheClasses */,
+			);
+			name = "External code";
+			sourceTree = "<group>";
+		};
+		79130F4314F47BCF00785BCA /* HJCacheClasses */ = {
+			isa = PBXGroup;
+			children = (
+				79130F4414F47BCF00785BCA /* HJCircularBuffer.h */,
+				79130F4514F47BCF00785BCA /* HJCircularBuffer.m */,
+				79130F4614F47BCF00785BCA /* HJManagedImageV.h */,
+				79130F4714F47BCF00785BCA /* HJManagedImageV.m */,
+				79130F4814F47BCF00785BCA /* HJManagedImageVDelegate.h */,
+				79130F4914F47BCF00785BCA /* HJMOBigFileCache.h */,
+				79130F4A14F47BCF00785BCA /* HJMOBigFileCache.m */,
+				79130F4B14F47BCF00785BCA /* HJMOFileCache.h */,
+				79130F4C14F47BCF00785BCA /* HJMOFileCache.m */,
+				79130F4D14F47BCF00785BCA /* HJMOHandler.h */,
+				79130F4E14F47BCF00785BCA /* HJMOHandler.m */,
+				79130F4F14F47BCF00785BCA /* HJMOPolicy.h */,
+				79130F5014F47BCF00785BCA /* HJMOPolicy.m */,
+				79130F5114F47BCF00785BCA /* HJMOUser.h */,
+				79130F5214F47BCF00785BCA /* HJMOUserBase.h */,
+				79130F5314F47BCF00785BCA /* HJMOUserBase.m */,
+				79130F5414F47BCF00785BCA /* HJObjManager.h */,
+				79130F5514F47BCF00785BCA /* HJObjManager.m */,
+				79130F5614F47BCF00785BCA /* HJWeakMutableArray.h */,
+				79130F5714F47BCF00785BCA /* HJWeakMutableArray.m */,
+			);
+			name = HJCacheClasses;
+			path = HJCache/HJCacheClasses;
+			sourceTree = SOURCE_ROOT;
+		};
 		791C875414F3F351004EBDE4 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +163,15 @@
 		791C876914F3F351004EBDE4 /* DMLayout */ = {
 			isa = PBXGroup;
 			children = (
+				79130ED914F4742B00785BCA /* External code */,
+				791C878514F3F4BB004EBDE4 /* Defines.h */,
 				791C877214F3F351004EBDE4 /* DMAppDelegate.h */,
 				791C877314F3F351004EBDE4 /* DMAppDelegate.m */,
-				791C877514F3F351004EBDE4 /* DMViewController.h */,
-				791C877614F3F351004EBDE4 /* DMViewController.m */,
-				791C877814F3F351004EBDE4 /* DMViewController.xib */,
+				791C878614F3F7D8004EBDE4 /* DMLayoutManager.h */,
+				791C878714F3F7D9004EBDE4 /* DMLayoutManager.m */,
+				791C87A014F42548004EBDE4 /* DMCellLayout.xib */,
+				791C879414F40467004EBDE4 /* Objects */,
+				791C879314F40440004EBDE4 /* Views */,
 				791C876A14F3F351004EBDE4 /* Supporting Files */,
 			);
 			path = DMLayout;
@@ -96,6 +186,33 @@
 				791C877114F3F351004EBDE4 /* DMLayout-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		791C879314F40440004EBDE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				791C878E14F3FEF3004EBDE4 /* DMLayoutView.h */,
+				791C878F14F3FEF3004EBDE4 /* DMLayoutView.m */,
+				791C878014F3F449004EBDE4 /* DMLayoutCell.h */,
+				791C878114F3F449004EBDE4 /* DMLayoutCell.m */,
+				791C877514F3F351004EBDE4 /* DMViewController.h */,
+				791C877614F3F351004EBDE4 /* DMViewController.m */,
+				791C877814F3F351004EBDE4 /* DMViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		791C879414F40467004EBDE4 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				791C879514F40494004EBDE4 /* DMRowObject.h */,
+				791C879614F40494004EBDE4 /* DMRowObject.m */,
+				791C879814F404B2004EBDE4 /* DMResult.h */,
+				791C879914F404B2004EBDE4 /* DMResult.m */,
+				79130F6114F47F0500785BCA /* DMManagedImageV.h */,
+				79130F6214F47F0500785BCA /* DMManagedImageV.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +268,7 @@
 			files = (
 				791C876E14F3F351004EBDE4 /* InfoPlist.strings in Resources */,
 				791C877A14F3F351004EBDE4 /* DMViewController.xib in Resources */,
+				791C87A214F42548004EBDE4 /* DMCellLayout.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +282,21 @@
 				791C877014F3F351004EBDE4 /* main.m in Sources */,
 				791C877414F3F351004EBDE4 /* DMAppDelegate.m in Sources */,
 				791C877714F3F351004EBDE4 /* DMViewController.m in Sources */,
+				791C878314F3F449004EBDE4 /* DMLayoutCell.m in Sources */,
+				791C878814F3F7D9004EBDE4 /* DMLayoutManager.m in Sources */,
+				791C879014F3FEF4004EBDE4 /* DMLayoutView.m in Sources */,
+				791C879714F40494004EBDE4 /* DMRowObject.m in Sources */,
+				791C879A14F404B2004EBDE4 /* DMResult.m in Sources */,
+				79130F5814F47BCF00785BCA /* HJCircularBuffer.m in Sources */,
+				79130F5914F47BCF00785BCA /* HJManagedImageV.m in Sources */,
+				79130F5A14F47BCF00785BCA /* HJMOBigFileCache.m in Sources */,
+				79130F5B14F47BCF00785BCA /* HJMOFileCache.m in Sources */,
+				79130F5C14F47BCF00785BCA /* HJMOHandler.m in Sources */,
+				79130F5D14F47BCF00785BCA /* HJMOPolicy.m in Sources */,
+				79130F5E14F47BCF00785BCA /* HJMOUserBase.m in Sources */,
+				79130F5F14F47BCF00785BCA /* HJObjManager.m in Sources */,
+				79130F6014F47BCF00785BCA /* HJWeakMutableArray.m in Sources */,
+				79130F6314F47F0500785BCA /* DMManagedImageV.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +317,15 @@
 				791C877914F3F351004EBDE4 /* en */,
 			);
 			name = DMViewController.xib;
+			path = DMLayout;
+			sourceTree = SOURCE_ROOT;
+		};
+		791C87A014F42548004EBDE4 /* DMCellLayout.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				791C87A114F42548004EBDE4 /* en */,
+			);
+			name = DMCellLayout.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -275,6 +417,7 @@
 				791C877F14F3F351004EBDE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

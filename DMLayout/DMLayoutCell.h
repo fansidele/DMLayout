@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DMLayoutView.h"
+#import "DMResult.h"
+#import "DMRowObject.h"
 
-@interface DMLayoutCell : UITableViewCell
+@interface DMLayoutCell : UITableViewCell{
+
+    
+}
 
 @end

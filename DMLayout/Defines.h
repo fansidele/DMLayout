@@ -9,6 +9,7 @@
 #ifndef DMLayout_Defines_h
 #define DMLayout_Defines_h
 
+enum cellSizes{big = CGSizeMake(100,100),small,medium };
 
 
 #endif

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DMLayoutManager.h"
 
-@interface DMViewController : UIViewController
+@interface DMViewController : UITableViewController
 
 @end
