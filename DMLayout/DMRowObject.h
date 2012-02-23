@@ -11,9 +11,11 @@
 @interface DMRowObject : NSObject{
     
     NSNumber *cellIdentifier;
+    NSMutableArray *results;
     
 }
 @property(nonatomic,retain)NSNumber *cellIdentifier;
+@property(nonatomic,retain)NSMutableArray *results;
 
 
 @end

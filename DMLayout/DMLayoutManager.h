@@ -26,6 +26,8 @@ typedef enum{
     
     NSMutableArray *data;
     
+    NSMutableArray *rowData;
+    
 }
 
 @property(nonatomic,retain)IBOutlet DMLayoutCell *HalfCell;

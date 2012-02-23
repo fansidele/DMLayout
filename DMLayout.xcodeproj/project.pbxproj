@@ -191,6 +191,8 @@
 		791C879314F40440004EBDE4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				79130F6114F47F0500785BCA /* DMManagedImageV.h */,
+				79130F6214F47F0500785BCA /* DMManagedImageV.m */,
 				791C878E14F3FEF3004EBDE4 /* DMLayoutView.h */,
 				791C878F14F3FEF3004EBDE4 /* DMLayoutView.m */,
 				791C878014F3F449004EBDE4 /* DMLayoutCell.h */,
@@ -209,8 +211,6 @@
 				791C879614F40494004EBDE4 /* DMRowObject.m */,
 				791C879814F404B2004EBDE4 /* DMResult.h */,
 				791C879914F404B2004EBDE4 /* DMResult.m */,
-				79130F6114F47F0500785BCA /* DMManagedImageV.h */,
-				79130F6214F47F0500785BCA /* DMManagedImageV.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";

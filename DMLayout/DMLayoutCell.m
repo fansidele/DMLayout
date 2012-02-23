@@ -21,6 +21,19 @@
 
 -(void)setResults:(DMRowObject *)rowObject{
     
+    switch ([rowObject.results count]) {
+        case NULLCELL:
+            break;
+        case SINGLECELL:
+            [leftView setUrl:[[rowObject.results objectAtIndex:0] resultImageURL]];
+            break;
+        case DOUBLECELL:
+            break;
+        case TRIPLECELL:
+            break;
+        default:
+            break;
+    }
     
     
 }

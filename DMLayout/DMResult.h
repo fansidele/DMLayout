@@ -12,7 +12,7 @@
     
     NSString *titleLabel;
     NSString *snippetLabel;
-    
+    NSURL *resultImageURL;
     UIImage *resultImage;
     
 }
@@ -20,5 +20,6 @@
 @property(nonatomic,retain)NSString *titleLabel;
 @property(nonatomic,retain)NSString *snippetLabel;
 @property(nonatomic,retain)UIImage *resultImage;
+@property(nonatomic,retain)NSURL *resultImageURL;
 
 @end

@@ -10,5 +10,20 @@
 
 @implementation DMRowObject
 @synthesize cellIdentifier;
+@synthesize results;
+
+-(id)init{
+    if(self == [super init]){
+        
+        results = [[NSMutableArray alloc]init];
+        
+    }
+    return self;
+}
+
+-(void)dealloc{
+    [results release];
+    [super dealloc];
+}
 
 @end

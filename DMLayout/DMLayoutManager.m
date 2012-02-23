@@ -26,10 +26,31 @@ NSArray *indentifiers;
         [data addObject:[[[DMRowObject alloc] init] autorelease]];
         [data addObject:[[[DMRowObject alloc] init] autorelease]];
         [data addObject:[[[DMRowObject alloc] init] autorelease]];
+        
+        rowData = [[NSMutableArray alloc]init];
 
         
     }
     return self;
+    
+}
+
+-(void)sortData:(NSMutableArray *)resultData rowData:(NSMutableArray *)rows{
+    
+    DMRowObject *object;
+    for(DMResult *result in resultData){
+        if(!object){
+            object = [[DMRowObject alloc]init];
+            [object.results addObject:result];
+        }else{
+            [object.results addObject:result];
+            [rows addObject:object];
+            [object release];
+            object = nil;
+            
+        }
+    }
+    
     
 }
 
@@ -47,7 +68,7 @@ NSArray *indentifiers;
     }else{
         int cellType = arc4random() % [indentifiers count];
         cell = [tableView dequeueReusableCellWithIdentifier:[indentifiers objectAtIndex:cellType]];
-        [[data objectAtIndex:indexPath.row] setCellIdentifier:[NSNumber numberWithInt:cellType]];
+        [rowObject setCellIdentifier:[NSNumber numberWithInt:cellType]];
     }
     if (cell == nil) {
         [[NSBundle mainBundle] loadNibNamed:@"DMCellLayout" owner:self options:nil];
@@ -73,6 +94,9 @@ NSArray *indentifiers;
         }
     
     }
+    
+    [cell setResults:rowObject];
+    
     return cell;
 
 }
